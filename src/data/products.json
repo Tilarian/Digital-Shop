@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Coca Cola 3L",
+        "category": "Bebidas",
+        "Stock": 5,
+        "price": 250,
+        "url": ""
+    },
+    {
+        "id": 2,
+        "name": "Pepsi 2.5L",
+        "category": "Bebidas",
+        "Stock": 10,
+        "price": 210,
+        "url": ""
+    },
+    {
+        "id": 3,
+        "name": "Lays 85G",
+        "category": "Comestibles",
+        "Stock": 7,
+        "price": 100,
+        "url": ""
+    },
+    {
+        "id": 4,
+        "name": "Doritos 150G",
+        "category": "Comestibles",
+        "Stock": 8,
+        "price": 190,
+        "url": ""
+    },
+    {
+        "id": 5,
+        "name": "Agua mineral 2L",
+        "category": "Bebidas",
+        "Stock": 10,
+        "price": 100,
+        "url": ""
+    },
+    {
+        "id": 6,
+        "name": "De todito 300G",
+        "category": "Comestibles",
+        "Stock": 2,
+        "price":  300,
+        "url": ""
+    }
+]
