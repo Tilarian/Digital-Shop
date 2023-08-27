@@ -10,10 +10,10 @@ export const NavBar = () => (
 
   <Navbar bg="dark" data-bs-theme="dark">
     <Container>
-      <Navbar.Brand href="#home">Digital Shop</Navbar.Brand>
+      <Navbar.Brand href="/">Digital Shop</Navbar.Brand>
       <Nav className="me-auto">
-        <Nav.Link href="#bebidas">Bebidas</Nav.Link>
-        <Nav.Link href="#comestibles">Comestibles</Nav.Link>
+        <Nav.Link href="/category/Bebidas">Bebidas</Nav.Link>
+        <Nav.Link href="/category/Comestibles">Comestibles</Nav.Link>
         <Nav.Link href="#ofertas">Ofertas</Nav.Link>
       </Nav>
       <Form className="d-flex">

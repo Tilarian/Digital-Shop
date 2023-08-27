@@ -1,6 +1,6 @@
 [
     {
-        "id": 1,
+        "id": "1",
         "name": "Coca Cola 3L",
         "category": "Bebidas",
         "Stock": 5,
@@ -8,7 +8,7 @@
         "url": "https://assets.vtex.app/unsafe/1041x1041/center/middle/https%3A%2F%2Ftatauy.vtexassets.com%2Farquivos%2Fids%2F578040%2FCoca-Cola-Sabor-Original-3-L-1-2782.jpg%3Fv%3D1779493892"
     },
     {
-        "id": 2,
+        "id": "2",
         "name": "Pepsi 1.5L",
         "category": "Bebidas",
         "Stock": 10,
@@ -16,7 +16,7 @@
         "url": "https://assets.vtex.app/unsafe/1041x1041/center/middle/https%3A%2F%2Ftatauy.vtexassets.com%2Farquivos%2Fids%2F169914%2F240727000-01.jpg%3Fv%3D1779479439"
     },
     {
-        "id": 3,
+        "id": "3",
         "name": "Lays 400G",
         "category": "Comestibles",
         "Stock": 7,
@@ -24,7 +24,7 @@
         "url": "https://assets.vtex.app/unsafe/1041x1041/center/middle/https%3A%2F%2Ftatauy.vtexassets.com%2Farquivos%2Fids%2F570882%2FPapas-Fritas-Lays-Cl-sicas-400-G-1-556.jpg%3Fv%3D1779493685"
     },
     {
-        "id": 4,
+        "id": "4",
         "name": "Doritos 92G",
         "category": "Comestibles",
         "Stock": 8,
@@ -32,7 +32,7 @@
         "url": "https://assets.vtex.app/unsafe/1041x1041/center/middle/https%3A%2F%2Ftatauy.vtexassets.com%2Farquivos%2Fids%2F206856%2FDoritos-Queso-Lays-92-Gr-1-9032.jpg%3Fv%3D1779479727"
     },
     {
-        "id": 5,
+        "id": "5",
         "name": "Agua mineral Salus 2.25L",
         "category": "Bebidas",
         "Stock": 10,
@@ -40,7 +40,7 @@
         "url": "https://assets.vtex.app/unsafe/1041x1041/center/middle/https%3A%2F%2Ftatauy.vtexassets.com%2Farquivos%2Fids%2F608686%2FAgua-Mineral-Salus-Con-Gas-2-25-L-1-2869.jpg%3Fv%3D1779493896"
     },
     {
-        "id": 6,
+        "id": "6",
         "name": "Doritos 250G",
         "category": "Comestibles",
         "Stock": 2,
