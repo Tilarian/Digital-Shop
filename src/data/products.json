@@ -5,46 +5,46 @@
         "category": "Bebidas",
         "Stock": 5,
         "price": 250,
-        "url": ""
+        "url": "https://assets.vtex.app/unsafe/1041x1041/center/middle/https%3A%2F%2Ftatauy.vtexassets.com%2Farquivos%2Fids%2F578040%2FCoca-Cola-Sabor-Original-3-L-1-2782.jpg%3Fv%3D1779493892"
     },
     {
         "id": 2,
-        "name": "Pepsi 2.5L",
+        "name": "Pepsi 1.5L",
         "category": "Bebidas",
         "Stock": 10,
         "price": 210,
-        "url": ""
+        "url": "https://assets.vtex.app/unsafe/1041x1041/center/middle/https%3A%2F%2Ftatauy.vtexassets.com%2Farquivos%2Fids%2F169914%2F240727000-01.jpg%3Fv%3D1779479439"
     },
     {
         "id": 3,
-        "name": "Lays 85G",
+        "name": "Lays 400G",
         "category": "Comestibles",
         "Stock": 7,
-        "price": 100,
-        "url": ""
+        "price": 270,
+        "url": "https://assets.vtex.app/unsafe/1041x1041/center/middle/https%3A%2F%2Ftatauy.vtexassets.com%2Farquivos%2Fids%2F570882%2FPapas-Fritas-Lays-Cl-sicas-400-G-1-556.jpg%3Fv%3D1779493685"
     },
     {
         "id": 4,
-        "name": "Doritos 150G",
+        "name": "Doritos 92G",
         "category": "Comestibles",
         "Stock": 8,
-        "price": 190,
-        "url": ""
+        "price": 110,
+        "url": "https://assets.vtex.app/unsafe/1041x1041/center/middle/https%3A%2F%2Ftatauy.vtexassets.com%2Farquivos%2Fids%2F206856%2FDoritos-Queso-Lays-92-Gr-1-9032.jpg%3Fv%3D1779479727"
     },
     {
         "id": 5,
-        "name": "Agua mineral 2L",
+        "name": "Agua mineral Salus 2.25L",
         "category": "Bebidas",
         "Stock": 10,
-        "price": 100,
-        "url": ""
+        "price": 50,
+        "url": "https://assets.vtex.app/unsafe/1041x1041/center/middle/https%3A%2F%2Ftatauy.vtexassets.com%2Farquivos%2Fids%2F608686%2FAgua-Mineral-Salus-Con-Gas-2-25-L-1-2869.jpg%3Fv%3D1779493896"
     },
     {
         "id": 6,
-        "name": "De todito 300G",
+        "name": "Doritos 250G",
         "category": "Comestibles",
         "Stock": 2,
-        "price":  300,
-        "url": ""
+        "price":  210,
+        "url": "https://assets.vtex.app/unsafe/1041x1041/center/middle/https%3A%2F%2Ftatauy.vtexassets.com%2Farquivos%2Fids%2F592936%2FDoritos-Lays-Queso-250-G-1-3242.jpg%3Fv%3D1779493906"
     }
 ]
