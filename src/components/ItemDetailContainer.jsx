@@ -25,7 +25,7 @@ export const ItemDetailContainer = (props) => {
     if (!product) return
 
     return (
-        <Container class="mt-4">
+        <Container className="mt-4">
             <h1>Detalles</h1>
             <ItemDetail product={product} />
         </Container>
