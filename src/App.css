@@ -21,13 +21,18 @@ form {
   padding: 1rem;
 }
 
-.cards{
+.cards {
   display: flex;
   flex-wrap: wrap;
 }
 
-.cards img{
-height: 100%;
-width: 100%;
-object-fit: cover;
+.cards div {
+  align-items: center;
+  justify-content: center;
+}
+
+.cards img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
