@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const stock = 4;
 
-export const ItemCount = () => {
+export const ItemCount = ({ onAdd }) => {
     const [count, setCount] = useState(1);
 
     const handleDecreaseCount = () => {
@@ -17,17 +17,13 @@ export const ItemCount = () => {
         }
     };
 
-    const onAdd = () => {
-        alert(count)
-    };
-
 
     return (
         <div className="itemCount">
             <span onClick={handleDecreaseCount}>-</span>
             <span>{count}</span>
             <span onClick={handleIncreaseCount}>+</span>
-            <button onClick={onAdd}>Agregar al carrito</button>
+            <button onClick={() => onAdd(`Has agregado ${count} articulo/s al carrito`)}>Agregar al carrito</button>
         </div>
     );
 };
