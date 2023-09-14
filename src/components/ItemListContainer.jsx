@@ -10,11 +10,11 @@ export const ItemListContainer = (props) => {
     const [products, setProducts] = useState([]);
 
     const { id } = useParams();
-
     useEffect(() => {
         const promise = new Promise((resolve, reject) => {
             setTimeout(() => resolve(data), 2000);
         });
+
 
         promise.then((data) => {
             if (!id) {
@@ -26,7 +26,7 @@ export const ItemListContainer = (props) => {
                 setProducts(productsFiltered);
             }
         });
-    }, []);
+    }, [id]);
 
 
     return (

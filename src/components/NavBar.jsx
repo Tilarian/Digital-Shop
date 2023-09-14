@@ -3,6 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
+import { Link } from "react-router-dom";
 
 import { CartWidget } from "./CartWidget";
 
@@ -10,11 +11,11 @@ export const NavBar = () => (
 
   <Navbar bg="dark" data-bs-theme="dark">
     <Container>
-      <Navbar.Brand href="/">Digital Shop</Navbar.Brand>
+    <Navbar.Brand as={Link} to="/">Digital Shop</Navbar.Brand>
       <Nav className="me-auto">
-        <Nav.Link href="/category/Bebidas">Bebidas</Nav.Link>
-        <Nav.Link href="/category/Comestibles">Comestibles</Nav.Link>
-        <Nav.Link href="#ofertas">Ofertas</Nav.Link>
+          <Nav.Link as={Link} to="/category/Bebidas">Bebidas</Nav.Link>
+          <Nav.Link as={Link} to="/category/Comestibles">Comestibles</Nav.Link>
+          <Nav.Link as={Link} to="#ofertas">Ofertas</Nav.Link>
       </Nav>
       <Form className="d-flex">
         <Form.Control
