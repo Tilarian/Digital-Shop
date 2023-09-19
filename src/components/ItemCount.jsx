@@ -23,7 +23,7 @@ export const ItemCount = ({ onAdd }) => {
             <span onClick={handleDecreaseCount}>-</span>
             <span>{count}</span>
             <span onClick={handleIncreaseCount}>+</span>
-            <button onClick={() => onAdd(`Has agregado ${count} articulo/s al carrito`)}>Agregar al carrito</button>
+            <button onClick={() => onAdd (count)}>Agregar al carrito</button>
         </div>
     );
 };

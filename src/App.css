@@ -1,4 +1,4 @@
-img {
+nav img {
   height: 40px;
   width: 40px;
 }
@@ -35,4 +35,15 @@ form {
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+
+.detalles_productos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.detalles_productos img{
+  max-height: 200px;
+  max-width: 200px;
 }
