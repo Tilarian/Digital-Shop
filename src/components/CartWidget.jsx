@@ -1,6 +1,13 @@
+import { useContext } from "react";
 import cart from "../assets/carrito.png";
-export const CartWidget = () => (
-    <>
-        <img src={cart} alt="Cart" /> <span>0</span>
-    </>
-)   
+import { CartContext } from "../contexts/CartContext";
+
+
+export const CartWidget = () => {
+    const { totalWidget } = useContext(CartContext)
+    return (
+        <>
+            <img src={cart} alt="Cart" /> <span>{totalWidget}</span>
+        </>
+    )
+}
