@@ -1,31 +1,26 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
-import { Link } from "react-router-dom";
-
+import { Container, Nav, Navbar } from "react-bootstrap"
 import { CartWidget } from "./CartWidget";
+import { NavLink } from "react-router-dom";
+import data from "../data/products.json"
+
+const categories = data.map((product) => product.category);
+const uniqueCategories = new Set(categories);
 
 export const NavBar = () => (
-
   <Navbar bg="dark" data-bs-theme="dark">
     <Container>
-    <Navbar.Brand as={Link} to="/">Digital Shop</Navbar.Brand>
+      <Navbar.Brand href="/">Digital Shop</Navbar.Brand>
       <Nav className="me-auto">
-          <Nav.Link as={Link} to="/category/Bebidas">Bebidas</Nav.Link>
-          <Nav.Link as={Link} to="/category/Comestibles">Comestibles</Nav.Link>
-          <Nav.Link as={Link} to="#ofertas">Ofertas</Nav.Link>
+        {[...uniqueCategories].map(category => (
+          <Nav.Link
+            as={NavLink}
+            key={category}
+            to={`/category/${category}`}
+          >
+            {category}
+          </Nav.Link>
+        ))}
       </Nav>
-      <Form className="d-flex">
-        <Form.Control
-          type="search"
-          placeholder="Search"
-          className="me-2"
-          aria-label="Search"
-        />
-        <Button variant="outline-success">Search</Button>
-      </Form>
       <CartWidget />
     </Container>
   </Navbar>
