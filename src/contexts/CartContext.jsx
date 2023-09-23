@@ -22,7 +22,7 @@ export const CartProvider = ({ children }) => {
         }
     }
 
-    const totalWidget = items.reduce((acc, val) => acc + val.quantity, 0)
+    const totalWidget = items.reduce((act, val) => act + val.quantity, 0)
 
     const removeItem = (id) => {
         const itemsFiltered = items.filter(item => item.id !== id)
