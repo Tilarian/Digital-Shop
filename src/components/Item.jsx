@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
+import { Button, Card } from "react-bootstrap";
 
 export const Item = ({ product }) => (
     <Card key={product.id} style={{ width: '18rem' }}>

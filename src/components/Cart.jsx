@@ -85,7 +85,7 @@ export const Cart = () => {
                         <td>Total</td>
                         <td></td>
                         <td></td>
-                        <td>{total()}</td>
+                        <td>{`$${total()}`}</td>
                     </tr>
                 </tfoot>
             </Table>
