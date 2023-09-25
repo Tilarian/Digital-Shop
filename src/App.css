@@ -41,11 +41,12 @@ form {
 
 .detalles_productos {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  gap: 30px;
 }
 
 .detalles_productos img{
-  max-height: 200px;
-  max-width: 200px;
+  max-height: 350px;
 }
